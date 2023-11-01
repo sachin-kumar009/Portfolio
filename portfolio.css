@@ -1,0 +1,91 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "open sans", sans-serif;
+}
+
+.topbar {
+  display: flex;
+  background-color: rgba(189, 249, 245, 0.264);
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+}
+.topbar li {
+  display: inline;
+  padding: 20px;
+}
+.topbar li a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+.topbar li .contact {
+  display: inline;
+  font-size: 18px;
+  background: black;
+  color: white;
+  border-radius: 25px;
+  padding: 15px;
+  margin-left: 500px;
+  font-family: cursive;
+}
+.topbar p {
+  margin-left: 0;
+  margin-right: 150px;
+  font-family: cursive;
+  font-size: 25px;
+}
+main {
+  background-image: url("images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+.introbox {
+  display: block;
+  padding-top: 160px;
+  margin-left: 130px;
+  width: 800px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+
+}
+.introbox #P1 {
+  display: block;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: black;
+  margin: 25px 0px;
+}
+.introbox #P2 {
+  display: inline;
+  font-size: 3.3rem;
+  font-family: fantasy;
+  margin: 25px 0px;
+}
+.introbox #p2 {
+  display: inline;
+  color: rgb(69, 145, 167);
+  font-size: 3.3rem;
+  font-family: fantasy;
+  margin: 10px 8px;
+}
+
+.introbox #P3 {
+  display: flex;
+  font-family: fantasy;
+  font-size: 3.2rem;
+  margin: 20px 0px;
+}
+
+.introbox #P4 {
+  display: flex;
+  font-size: 1.5rem;
+  margin: 10px 0px;
+}
