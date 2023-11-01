@@ -10,47 +10,48 @@
 .topbar {
   display: flex;
   background-color: rgba(189, 249, 245, 0.264);
-  height: 90px;
+  height: 5vw;
   justify-content: center;
   align-items: center;
 }
 .topbar li {
   display: inline;
-  padding: 20px;
+  padding: 1vw;
 }
 .topbar li a {
-  padding: 10px;
+  padding: 0.5vw;
   text-decoration: none;
   color: black;
-  font-size: 25px;
+  font-size: 1.75vw;
 }
 .topbar li .contact {
   display: inline;
-  font-size: 18px;
+  font-size: 1.1vw;
   background: black;
   color: white;
-  border-radius: 25px;
-  padding: 15px;
-  margin-left: 500px;
+  border-radius: 1.3vw;
+  padding: 1vw;
+  margin-left: 26vw;
   font-family: cursive;
 }
 .topbar p {
   margin-left: 0;
-  margin-right: 150px;
+  margin-right: 7.8vw;
   font-family: cursive;
-  font-size: 25px;
+  font-size: 1.3vw;
 }
 main {
-  background-image: url("bg2.jpg");
+  background-image: url("images/bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  height: 50vw;
+  width: 100%;
 }
 .introbox {
   display: block;
-  padding-top: 160px;
-  margin-left: 130px;
-  width: 800px;
+  padding-top: 8.3vw;
+  margin-left: 6.7vw;
+  width: 41.5vw;
   flex-direction: column;
   justify-content: center;
   background-color: transparent;
@@ -61,31 +62,31 @@ main {
   font-size: 1.5rem;
   background-color: transparent;
   color: black;
-  margin: 25px 0px;
+  margin: 1.3vw 0vw;
 }
 .introbox #P2 {
   display: inline;
   font-size: 3.3rem;
   font-family: fantasy;
-  margin: 25px 0px;
+  margin: 1.3vw 0vw;
 }
 .introbox #p2 {
   display: inline;
   color: rgb(69, 145, 167);
   font-size: 3.3rem;
   font-family: fantasy;
-  margin: 10px 8px;
+  margin: 1.3vw 0vw;
 }
 
 .introbox #P3 {
   display: flex;
   font-family: fantasy;
   font-size: 3.2rem;
-  margin: 20px 0px;
+  margin: 1.3vw 0vw;
 }
 
 .introbox #P4 {
   display: flex;
   font-size: 1.5rem;
-  margin: 10px 0px;
+  margin: 1.3vw 0vw;
 }
