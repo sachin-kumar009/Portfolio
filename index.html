@@ -3,38 +3,198 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="portfolio.css" />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <script
-      src="https://kit.fontawesome.com/a076d05399.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Sachin Kumar</title>
+    <title>Portfolio - Sachin Kumar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/1699031066525~2.jpg" type="image/x-icon">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"
   </head>
   <body>
-    <nav>
-      <div class="topbar">
-        <div id="heading"><p>portfolio</p></div>
-        <ul>
-          <li><a href="home">Home</a></li>
-          <li><a href="about">About</a></li>
-          <li><a href="projects">Projects</a></li>
-          <li><a href="Reviews">Reviews</a></li>
-          <li><a class="contact" href="contact"> Contact </a></li>
-        </ul>
-      </div>
-    </nav>
-    <main>
-      <section>
-        <div class="introbox">
-          <p id="P1">Hey There,</p>
-          <p id="P2">I'M </p> <p id="p2">SACHIN</p>
-          <p id="P3">A WEB DEVELOPER</p>
-          <p id="P4">
-            "Experienced web developer crafting innovative digital solutions with a passion for code, design, and user-centric experiences. Let's create together!"
-          </p>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <p>Portfolio</p>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>WEB DEVELOPER</p>
+          <h1>
+            Hi, I'm <span>Sachin </span> <br />
+            Kumar from India
+          </h1>
         </div>
-    </main>
+      </div>
+    </div>
+    <!---ABOUT SECTION--->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/1699031066525~2.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+              odit, neque accusantium cumque totam iusto, ad officiis voluptates
+              autem eum voluptatum natus commodi temporibus magnam nesciunt
+              corporis deserunt ut possimus distinctio saepe pariatur libero!
+              Nulla quis non aliquam ab quam inventore officiis, sequi corporis
+              ut. Illum dolore illo quod fugiat fuga itaque ipsam rem, explicabo
+              velit officiis facilis enim quos neque libero quis? Nobis
+              architecto quia omnis doloremque perferendis iste quidem aliquam
+              deserunt aperiam dignissimos ullam vitae, ut vel assumenda
+              ratione, corrupti voluptatibus voluptatum veniam officia obcaecati
+              nemo expedita alias ipsum exercitationem! Praesentium pariatur
+              eligendi ratione cum qui illo modi molestias adipisci iste
+              quisquam corporis, maiores nostrum debitis dolorem est mollitia
+              distinctio reiciendis quibusdam quasi inventore et nam quis earum
+              tenetur! Debitis, ullam eveniet! Culpa, placeat. Tenetur beatae
+              dolores deleniti minima modi cumque quasi cum saepe, ratione iste
+              rem numquam odio animi aut tempore velit veniam asperiores
+              laudantium a odit recusandae corrupti soluta impedit ullam.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experiences')">
+                Experiences
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li>
+                  <span>Web Devlopment</span><br />
+                  Web App Devlopment
+                </li>
+                <li>
+                  <span>App Devlopment</span><br />Building Androis/iOS apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experiences">
+              <ul>
+                <li><span>currently</span><br />Web Projects</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>currently</span><br />Learning Web Devlopment and Java
+                </li>
+                <li><span>2023</span><br />BTech at MSIT First Year</li>
+                <li>
+                  <span>2022</span><br />Completed schooling from RPVV sec-10
+                  Dwarka
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----services----->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              ullam architecto quidem dolorem dolores voluptatem obcaecati,
+              omnis amet eius impedit quia numquam dolorum dignissimos ducimus
+              sed soluta aliquam totam a!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              ullam architecto quidem dolorem dolores voluptatem obcaecati,
+              omnis amet eius impedit quia numquam dolorum dignissimos ducimus
+              sed soluta aliquam totam a!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              ullam architecto quidem dolorem dolores voluptatem obcaecati,
+              omnis amet eius impedit quia numquam dolorum dignissimos ducimus
+              sed soluta aliquam totam a!
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----projects------>
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="" alt="">
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium quo soluta neque impedit sequi voluptatem quas enim cupiditate debitis eveniet.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="" alt="">
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium quo soluta neque impedit sequi voluptatem quas enim cupiditate debitis eveniet.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="" alt="">
+                    <div class="layer">
+                        <h3>Social media app</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium quo soluta neque impedit sequi voluptatem quas enim cupiditate debitis eveniet.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+
+        </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
   </body>
 </html>
-
