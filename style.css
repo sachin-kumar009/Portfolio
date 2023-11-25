@@ -359,11 +359,11 @@ nav .fa-solid {
     background-image: url(images/mobilebg.png);
   }
   .header-text {
-    margin-top: 100%;
+    margin-top: 80%;
     font-size: 24px;
   }
   .header-text h1 {
-    font-size: 40px;
+    font-size: 38px;
   }
   nav .fa-solid {
     display: block;
