@@ -366,11 +366,11 @@ nav .fa-solid {
     background-image: url(images/mobilebg.png);
   }
   .header-text {
-    margin-top: 70%;
-    font-size: 28px;
+    margin-top: 50%;
+    font-size: 24px;
   }
   .header-text h1 {
-    font-size: 38px;
+    font-size: 30px;
   }
   nav .fa-solid {
     display: block;
