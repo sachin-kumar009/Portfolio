@@ -66,6 +66,8 @@ nav ul li a:hover::after {
 }
 
 .header-text {
+ display: flex;
+  align-items: center;
   margin-top: 18%;
   font-size: 30px;
 }
