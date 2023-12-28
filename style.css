@@ -373,6 +373,9 @@ nav .fa-solid {
   .header-text h1 {
     font-size: 30px;
   }
+  .qoutes{
+    font-size:18px;
+  }
   nav .fa-solid {
     display: block;
     font-size: 25px;
